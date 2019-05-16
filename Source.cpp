@@ -1,16 +1,17 @@
 #include <iostream>
-#include "queue.h"
+#include "stack.h"
 
-//https://www.youtube.com/watch?v=TCmkquGrmDQ&t=344s this video helped alot.
+
 using namespace std;
 
 int main()
 {
-	Queue Paint;
+	Stack Paint;
 	Paint.generate();
-	Paint.push(0, 0);
+	Paint.push(2, 2);
 	Paint.fill();
 	Paint.print();
-	
+
 	return 0;
+
 }
