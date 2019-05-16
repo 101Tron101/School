@@ -11,5 +11,6 @@ int main()
 	Paint.push(0, 0);
 	Paint.fill();
 	Paint.print();
-
+	
+	return 0;
 }
